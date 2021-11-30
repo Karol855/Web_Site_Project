@@ -1,0 +1,84 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/breakfast.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+}
+.full-login--form {
+  border: 1px solid cornflowerblue;
+  box-shadow: 0 0 5px 1px cornflowerblue;
+  margin-left: 60px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 20px;
+  width: 420px;
+  height: 460px;
+}
+
+.login-form--title {
+  font-size: 30px;
+  color: cornflowerblue;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.login-email {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: cornflowerblue;
+  padding-bottom: 20px;
+  .label-email {
+    padding-bottom: 10px;
+  }
+}
+.login-password {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: cornflowerblue;
+  padding-bottom: 40px;
+  .label-password {
+    padding-bottom: 10px;
+  }
+}
+
+.form-control--login {
+  border: 1px solid cornflowerblue;
+  border-radius: 5px;
+  font-size: 20px;
+  color: coral;
+}
+
+.errors2-table {
+  padding-top: 40px;
+  color: red;
+  opacity: 0.5;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-secondary {
+  background-color: cornflowerblue;
+  border: none;
+  padding: 15px 40px 15px 40px;
+  border-radius: 30px;
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+
+  &:active {
+    color: darkblue;
+    font-size: 28.1px;
+    opacity: 0.7;
+    transition: 0.1s;
+  }
+}

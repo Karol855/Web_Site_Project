@@ -1,0 +1,214 @@
+.all-contacts {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 40px;
+  border-right: 1px solid coral;
+
+
+  h3 {
+    border-bottom: 1px solid goldenrod;
+    color: coral;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  p {
+    color: coral;
+    font-size: 26px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  a {
+    color: goldenrod;
+    font-size: 24px;
+  }
+}
+
+//formularz kontaktowy - stylowanie
+.contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-form {
+  width: 50%;
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 3px 2px blanchedalmond;
+  border-radius: 5px;
+  color: coral;
+  .contact-form--title {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 30px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 20px;
+
+  .name{
+    display: flex;
+    padding-bottom: 20px;
+    .label-name{
+      font-size: 18px;
+      padding-right: 60px;
+    }
+  }
+  .surname{
+    display: flex;
+    padding-bottom: 20px;
+    .label-surname {
+      font-size: 18px;
+      padding-right: 60px;
+    }
+  }
+  .email {
+    display: flex;
+    padding-bottom: 20px;
+    .label-email {
+      font-size: 18px;
+      padding-right: 60px;
+    }
+  }
+  .message {
+    display: flex;
+    padding-bottom: 20px;
+    .label-message {
+      font-size: 18px;
+      padding-right: 60px;
+    }
+  }
+  .form-control {
+    color:rgb(229,114,72);
+    font-size: 17px;
+    border: 1px solid coral;
+    border-radius: 5px;
+  }
+  .message-control {
+    width: 222px;
+    height: 100px;
+  }
+  .btn-primary {
+    color: white;
+    width: 25%;
+    background-color: rgb(229,192,98);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    &:active {
+      color: darkgoldenrod;
+      font-size: 20.1px;
+      opacity: 0.8;
+      transition: 0.1s;
+
+    }
+  }
+}
+
+.errors-table {
+  padding-top: 10px;
+}
+.errors {
+  color: red;
+  opacity: 0.5;
+}
+
+
+@media (max-device-width : 800px) {
+  .all-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contact {
+      border: none;
+      h3 {
+        font-size: 24px;
+      }
+      p{
+        font-size: 16px;
+        width: 120px;
+      }
+      a{
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+
+@media (max-device-width : 800px) {
+    .full-form {
+      width: 200%;
+      height: 100%;
+      margin-top: 40px;
+      h3.contact-form--title {
+        font-size: 20px;
+      }
+      .form {
+
+        .name {
+          display: flex;
+          flex-direction: row;
+          .label-name {
+            font-size: 16px;
+            padding-right: 5px;
+          }
+        }
+        .surname {
+          display: flex;
+          flex-direction: row;
+          .label-surname {
+            font-size: 16px;
+            padding-right: 5px;
+          }
+        }
+        .email {
+          display: flex;
+          flex-direction: row;
+          .label-email {
+            font-size: 16px;
+            padding-right: 5px;
+          }
+        }
+        .message {
+          display: flex;
+          flex-direction: row;
+          .label-message {
+            font-size: 16px;
+            padding-right: 5px;
+          }
+        }
+        .btn-primary {
+          font-size: 18px;
+        }
+      }
+    }
+}
+
+@media (max-device-width : 800px) {
+  input.form-control {
+    width: 200px;
+  }
+  textarea.form-control.message-control {
+    width: 200px;
+  }
+}

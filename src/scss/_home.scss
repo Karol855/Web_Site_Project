@@ -1,0 +1,63 @@
+.photos {
+  width: 100%;
+  display: flex;
+}
+
+.cauliflower {
+  width: 100%;
+  height: 550px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.girl {
+  width: 100%;
+  height: 550px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.soup {
+  width: 100%;
+  height: 550px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.wrestling {
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.text {
+  color: coral;
+  font-family: Cambria, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: 0.9;
+}
+
+.title {
+  color: coral;
+  font-weight: bold;
+  font-family: Cambria, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  opacity: 0.9;
+}
+
+@media (max-device-width : 800px) {
+  div div {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,118 @@
+.container-calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator-bmi {
+  background-color:#ff4f68;
+  height:450px;
+  width: 900px;
+  border: 1px solid red;
+}
+
+
+.calculator-title {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.height-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.height-label {
+  color: white;
+  font-size: 24px;
+}
+
+.input-height {
+  font-size: 20px;
+}
+
+.mass-container{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.mass-label {
+  color: white;
+  font-size: 24px;
+}
+.input-mass {
+  font-size: 20px;
+  display: flex;
+}
+
+.button-bmi--container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.third-button {
+  border:none;
+  background-color: limegreen;
+  font-size: 22px;
+  font-weight: 600;
+  color:white;
+  padding: 10px;
+  border-radius: 20px;
+
+  &:active {
+    color: green;
+    font-size: 22.1px;
+    background-color: yellowgreen;
+    transition: 0.1s;
+  }
+}
+
+.info-bmi--container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.info-bmi {
+  color: white;
+  font-size: 24px;
+}
+.bmi {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+//komunikaty
+.underweight {
+  font-size: 20px;
+  color: cornflowerblue;
+  background: white;
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+}
+
+.normal {
+  font-size: 20px;
+  color: limegreen;
+  background: white;
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+}
+
+.overweight {
+  font-size: 20px;
+  color:red;
+  background: white;
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+}

@@ -1,0 +1,85 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cornsilk;
+  color: goldenrod;
+  border-radius: 5px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.logo-list {
+  display: flex;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  width: 60%;
+
+  a {
+    color:goldenrod;
+    &:hover {
+      color: goldenrod;
+      transition: color 0.5s;
+      opacity: 0.5;
+    }
+  }
+}
+
+.copyright {
+  color: goldenrod;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.logo2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  color: goldenrod;
+  font-weight: bolder;
+  &:hover {
+    color: coral;
+    transition: color 0.5s;
+    opacity: 0.5;
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+
+  a {
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  .facebook {
+    color:#1877f2;
+    &:hover {
+      color: #1877f2;
+      transition: color 0.5s;
+      opacity: 0.5;
+    }
+  }
+  .instagram {
+    color: #ff5108;
+    &:hover {
+      color: #ff5108;
+      transition: color 0.5s;
+      opacity: 0.5;
+    }
+  }
+}
+@media (max-device-width : 800px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+}

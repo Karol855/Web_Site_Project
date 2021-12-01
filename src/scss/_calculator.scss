@@ -116,3 +116,21 @@
   font-weight: 500;
   padding: 5px 20px 5px 20px;
 }
+
+@media (max-device-width : 800px) {
+   .container-calculator{
+    .calculator-bmi{
+      width: 90vw;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      height: 100%;
+      form{
+
+        .info-container{
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

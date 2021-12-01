@@ -4,44 +4,43 @@
 }
 
 .cauliflower {
-  width: 100%;
-  height: 550px;
+  width: 25%;
+  height: 430px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
   border-radius: 10px;
 }
 .girl {
-  width: 100%;
-  height: 550px;
+  width: 25%;
+  height: 430px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
   border-radius: 10px;
 }
 
 .soup {
-  width: 100%;
-  height: 550px;
+  width: 25%;
+  height: 430px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
   border-radius: 10px;
 }
 
 .wrestling {
-  width: 100%;
-  height: 550px;
+  width: 25%;
+  height: 430px;
   background-size: cover;
   background-position: center;
-  margin-top: 20px;
+  margin-top: 5px;
   border-radius: 10px;
 }
 
 .text {
   color: coral;
   font-family: Cambria, sans-serif;
-  font-size: 22px;
+  font-size: 17px;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+
   opacity: 0.9;
 }
 
@@ -49,9 +48,9 @@
   color: coral;
   font-weight: bold;
   font-family: Cambria, sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 5px;
   opacity: 0.9;
 }
 
@@ -59,5 +58,17 @@
   div div {
     display: flex;
     flex-direction: column;
+    .cauliflower {
+      width: 100%;
+    }
+    .girl{
+      width: 100%;
+    }
+    .soup{
+      width: 100%;
+    }
+    .wrestling{
+      width: 100%;
+    }
   }
 }

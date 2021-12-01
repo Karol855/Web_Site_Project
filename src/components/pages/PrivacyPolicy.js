@@ -3,7 +3,7 @@ import React from 'react';
 const PrivacyPolicy = () => {
     return (
         <div className="main-content">
-            <div className="content">
+            <div className="content-privacy">
                 <h3>Polityka prywatności oraz wykorzystania plików Cookies w serwisie internetowym Healthy life</h3>
                 <p>Niniejszy dokument dotyczy przetwarzania oraz ochrony danych osobowych dotyczących Użytkowników w związku z korzystaniem przez nich z serwisu: www.healthylife.pl (dalej „Serwis”).
                 </p>

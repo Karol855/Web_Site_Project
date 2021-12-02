@@ -1,0 +1,87 @@
+.main-diet--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    color:green;
+    font-size: 34px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid limegreen;
+    width: 400px;
+  }
+  .diet-begining {
+    display: flex;
+    font-size: 16px;
+    width: 90%;
+    border-bottom: 1px solid limegreen;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
+.diet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 80px;
+}
+
+.diet1 {
+  border: 2px solid green;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  position: relative;
+
+  .mediterranean-button {
+    position: absolute;
+    bottom: 10px;
+    right:20px;
+    border-radius: 20px;
+    background-color: limegreen;
+    color: white;
+    padding: 5px;
+    &:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+    &:active {
+      color: black;
+    }
+  }
+
+  .mediterranean-diet {
+    display: flex;
+    .mediterranean-photo {
+      width: 200px;
+      height: 250px;
+      margin-right: 20px;
+      border-radius: 5px;
+    }
+    p strong {
+      font-size: 24px;
+      color: coral;
+    }
+  }
+}
+
+
+@media (max-device-width : 800px) {
+  .diet1 {
+    width: 90vw;
+    padding-bottom: 30px;
+    .mediterranean-diet>.mediterranean-photo {
+        width: 80vw;
+        height: 80vw;
+      margin-left: 15px;
+
+    }
+  }
+}

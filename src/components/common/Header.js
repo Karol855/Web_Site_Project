@@ -6,10 +6,9 @@ const Header = () => {
         <header>
             <ul className="header-links">
                     <Link className="logo" to="/">Healthy life</Link>
-                    <Link to="/diety">Diety</Link>
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/diety">Diety/Blog</Link>
                     <Link to="/omnie">O mnie</Link>
-                    <Link to="/kalkulator">Kalkulator BMI/BMR</Link>
+                    <Link to="/kalkulator">Kalkulator BMI</Link>
                     <Link to="/zaloguj">Zaloguj</Link>
 
             </ul>

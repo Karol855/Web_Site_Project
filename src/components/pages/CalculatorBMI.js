@@ -42,7 +42,11 @@ function CalculatorBMI() {
             <form onSubmit={calculate}>
                 <div className="height-container">
                     <label className="height-label">Podaj swój wzrost w cm:</label>
-                    <input className="input-height" value={height} onChange={(e) => setHeight(e.target.value)} />
+                    <input
+                        className="input-height"
+                        value={height}
+                        onChange={(e) => setHeight(e.target.value)}
+                    />
                 </div>
 
                 <div className="mass-container">

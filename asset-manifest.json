@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Web_Site_Project/static/css/main.e1c873b4.chunk.css",
+    "main.js": "/Web_Site_Project/static/js/main.49d4ea0f.chunk.js",
+    "main.js.map": "/Web_Site_Project/static/js/main.49d4ea0f.chunk.js.map",
+    "runtime-main.js": "/Web_Site_Project/static/js/runtime-main.2039676d.js",
+    "runtime-main.js.map": "/Web_Site_Project/static/js/runtime-main.2039676d.js.map",
+    "static/js/2.a127a3a6.chunk.js": "/Web_Site_Project/static/js/2.a127a3a6.chunk.js",
+    "static/js/2.a127a3a6.chunk.js.map": "/Web_Site_Project/static/js/2.a127a3a6.chunk.js.map",
+    "index.html": "/Web_Site_Project/index.html",
+    "static/css/main.e1c873b4.chunk.css.map": "/Web_Site_Project/static/css/main.e1c873b4.chunk.css.map",
+    "static/js/2.a127a3a6.chunk.js.LICENSE.txt": "/Web_Site_Project/static/js/2.a127a3a6.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Web_Site_Project/static/media/oranges.8dc78038.jpg",
+    "static/media/cauliflower.89491010.jpg": "/Web_Site_Project/static/media/cauliflower.89491010.jpg",
+    "static/media/girl.e1f2594a.jpg": "/Web_Site_Project/static/media/girl.e1f2594a.jpg",
+    "static/media/mediterranean.ca681203.jpg": "/Web_Site_Project/static/media/mediterranean.ca681203.jpg",
+    "static/media/owner.e6e756e4.jpg": "/Web_Site_Project/static/media/owner.e6e756e4.jpg",
+    "static/media/soup.ede5c84c.jpg": "/Web_Site_Project/static/media/soup.ede5c84c.jpg",
+    "static/media/wrestling.c15c561d.jpg": "/Web_Site_Project/static/media/wrestling.c15c561d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2039676d.js",
+    "static/js/2.a127a3a6.chunk.js",
+    "static/css/main.e1c873b4.chunk.css",
+    "static/js/main.49d4ea0f.chunk.js"
+  ]
+}
